@@ -1,6 +1,6 @@
 @extends('layout.layout')
 
-@section('title', 'Students')
+@section('title', 'Dashborad')
     
 @section('content')
     <div class=
@@ -14,8 +14,6 @@
                 mb-4
             "
         >
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, repellat doloribus fuga animi sed in consequatur. At ab corrupti quibusdam voluptas exercitationem optio, dolor ullam error assumenda incidunt harum officia.
-    </p>
+    
     </div>
 @endsection

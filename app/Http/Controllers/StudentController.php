@@ -13,4 +13,8 @@ class StudentController extends Controller
     public function layout(){
         return view('layout.layout');
     }
+
+    public function create(){
+        return view('students.create');
+    }
 }

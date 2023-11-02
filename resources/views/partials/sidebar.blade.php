@@ -28,7 +28,7 @@
                                 <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z"></path>
                                 <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"></path>
                             </svg>
-                            <span class="ml-3">Overview</span>
+                            <span class="ml-3">Dashboard</span>
                         </a>
                     </li>
                     <li>
@@ -106,7 +106,7 @@
                         <ul id="dropdown-sales" class="hidden py-2 space-y-2">
                             <li>
                                 
-                                <a href="#"
+                                <a href="{{ route('students.create')}}"
                                     class="flex items-center p-2 pl-11 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-green-500 hover:text-white dark:text-white dark:hover:bg-gray-700">Student</a>
                             </li>
                             <li>

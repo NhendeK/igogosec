@@ -14,7 +14,7 @@ Route::get('/students', [StudentController::class, 'index'])->name('students.hom
 
 Route::get('/layout', [StudentController::class,'layout'])->name('layout.layout');
 
-// Route::get('/students',[StudentController::class, 'welcome'])->name('students.welcome');
+Route::get('/students/create',[StudentController::class, 'create'])->name('students.create');
 
 
 

@@ -19,8 +19,6 @@
 
         @include('partials.sidebar')
 
-        {{-- MAIN CONTENTS --}}
-        <!--The Main Content/ Central Part of the Application-->
         <main class="p-4 md:ml-64 h-auto pt-20">
             <div class="
                     text-3xl
@@ -38,10 +36,6 @@
                 </h1>
             </div>
 
-            {{-- <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-4"> --}}
-                <!--These are four divs which devides
-                    the Main Components into four parts
-                -->
 
              @yield('content')
 
